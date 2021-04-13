@@ -1,0 +1,44 @@
+{
+  "smelt": {
+    "input": [
+      {
+        "resource": {
+          "tags": ["Ore"]
+        },
+        "quantity": 1
+      }
+    ],
+    "output": [
+      {
+        "resource": {
+          "index": 1,
+          "name": "{} Ingot"
+        },
+        "quantity": 1
+      }
+    ],
+    "base_time": 4000,
+    "requirements": []
+  },
+  "compressor": {
+    "input": [
+      {
+        "resource": {
+          "tag": ["Ingot"]
+        },
+        "quantity": 1
+      }
+    ],
+    "output": [
+      {
+        "resource": {
+          "index": 1,
+          "name": "{} Plate"
+        },
+        "quantity": 1
+      }
+    ],
+    "base_time": 5000,
+    "requirements": []
+  }
+}
